@@ -25,35 +25,37 @@
   <body>
     <!--Header-->
     <header>
-      <div class="container">
+      <div class="container header-container">
         <a href="./index.html" class="header-logo"
           >Web<span class="header-logo-span">Studio</span></a
         >
-        <nav class="header-nav">
-          <ul class="header-nav-list">
-            <li>
-              <a href="./index.html" class="header-nav-list-item">Studio</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="header-nav-list-item">Portfolio</a>
-            </li>
-            <li><a href="#" class="header-nav-list-item">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="header-address">
-          <ul>
-            <li>
-              <a href="mailto:info@devstudio.com" class="address-list-item"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="address-list-item"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="nav-addr-wrap">
+          <nav class="header-nav">
+            <ul class="header-nav-list-container">
+              <li>
+                <a href="./index.html" class="header-nav-list-item">Studio</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="header-nav-list-item">Portfolio</a>
+              </li>
+              <li><a href="#" class="header-nav-list-item">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="header-address">
+            <ul class="header-address-container">
+              <li>
+                <a href="mailto:info@devstudio.com" class="address-list-item"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="address-list-item"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
@@ -69,29 +71,29 @@
       <section class="features-section">
         <div class="container">
           <h2 class="visually-hidden">Our Features</h2>
-          <ul>
-            <li>
+          <ul class="features-list">
+            <li class="features-item">
               <h3 class="features-title">Strategy</h3>
               <p class="features-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Punctuality</h3>
               <p class="features-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Diligence</h3>
               <p class="features-text">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="features-item">
               <h3 class="features-title">Technologies</h3>
               <p class="features-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -106,26 +108,34 @@
       <section class="team-section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
-          <ul>
+          <ul class="team-list">
             <li class="team-list-item">
               <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" />
-              <h3 class="team-list-title">Mark Guerrero</h3>
-              <p class="team-list-text">Product Designer</p>
+              <div class="team-descr-container">
+                <h3 class="team-list-title">Mark Guerrero</h3>
+                <p class="team-list-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
-              <h3 class="team-list-title">Tom Ford</h3>
-              <p class="team-list-text">Frontend Developer</p>
+              <div class="team-descr-container">
+                <h3 class="team-list-title">Tom Ford</h3>
+                <p class="team-list-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img src="./images/kamila.jpg" alt="Camila Garcia" width="264" />
-              <h3 class="team-list-title">Camila Garcia</h3>
-              <p class="team-list-text">Marketing</p>
+              <div class="team-descr-container">
+                <h3 class="team-list-title">Camila Garcia</h3>
+                <p class="team-list-text">Marketing</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" />
-              <h3 class="team-list-title">Daniel Wilson</h3>
-              <p class="team-list-text">UI Designer</p>
+              <div class="team-descr-container">
+                <h3 class="team-list-title">Daniel Wilson</h3>
+                <p class="team-list-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
