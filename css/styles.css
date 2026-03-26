@@ -207,7 +207,6 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .team-descr-container {
   padding: 32px 16px;
