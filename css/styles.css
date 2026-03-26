@@ -49,6 +49,9 @@ button {
 .header-address {
   margin-left: auto;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   margin-right: 76px;
@@ -56,6 +59,7 @@ button {
 .header-nav {
   display: flex;
   align-items: center;
+  gap: 76px;
 }
 .header-address-container {
   display: flex;
@@ -76,7 +80,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
   display: block;
   padding: 24px 0;
 }
@@ -126,7 +129,7 @@ button {
 .hero-section {
   background: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 194px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -136,7 +139,7 @@ button {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin: 0 auto 40px;
+  margin: 0 auto 48px;
 }
 .hero-butn {
   font-weight: 500;
@@ -159,8 +162,10 @@ button {
 }
 
 /* FEATURES */
-.features-list {
+.features-section {
   padding-block: 120px;
+}
+.features-list {
   display: flex;
   gap: 24px;
   align-items: center;
@@ -230,7 +235,8 @@ button {
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  /* flex-basis: calc((100% - 24px * 3) / 4); */
+  flex-basis: calc((100% - 24px * 3) / 4);
+  border-radius: 0 0 4px 4px;
 }
 /* POTFOLIO */
 .portf-list-item-container {
