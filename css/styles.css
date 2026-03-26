@@ -54,7 +54,6 @@ button {
 }
 .header-container {
   display: flex;
-  margin-right: 76px;
 }
 .header-nav {
   display: flex;
@@ -199,10 +198,11 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding: 120px 0 72px;
+  margin-bottom: 72px;
 }
 .team-section {
   background: #f4f4fd;
+  padding-block: 120px;
 }
 .team-list {
   display: flex;
